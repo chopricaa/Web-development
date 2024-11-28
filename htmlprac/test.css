@@ -1,0 +1,106 @@
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow : 10px 10px  lightblue;
+}
+a:hover {
+    color: yellow;
+    font-size: 30x;
+}    
+
+.User{
+  color: brown;
+
+}
+
+.User{
+  color:blueviolet;
+}
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: chartreuse;
+}
+
+.container > div{
+  background-color: cornflowerblue;
+  width: 100px;
+  margin: 20px;
+  text-align:center;
+
+}
+.box {
+  width: 200px;
+  padding: 10px;
+  border: 10px dashed palevioletred;
+  margin: 10px;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid green;
+  width: calc(33.33% - 50px);
+  box-sizing: border-box;
+}
+
+.container2{
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border: 2px black;
+}
+.static-box{
+  position:static;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+}
+.relative-box{
+  position: relative;
+  top: 1px; 
+  left: 200px; 
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+.absolute-box{
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+}
+
+.chop{
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+
+
+.fixed{
+  position: fixed;
+  bottom:0px;
+  
+  right:0px;
+}
